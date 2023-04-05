@@ -60,6 +60,25 @@ section{
     transform: scale(1.1);
 }
 
+
+.btn_check{
+    display: inline-block;
+    margin-top: 1rem;
+    padding:.8rem 3rem;
+    border-radius: 5rem;
+    background:var(--gradient);
+    font-size: 1.7rem;
+    color:#fff;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    transition: all .3s linear;
+    margin-left:215px;
+}
+
+.btn_check:hover{
+    transform: scale(1.1);
+}
+
 .btn2{
     display:inline-block;
     margin-top: 1rem;
@@ -146,7 +165,8 @@ header input{
 
 .home .image img{
     margin-top: 45px;
-    width:375px;
+    margin:15%;
+    width:350px;
     border-radius: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -387,7 +407,7 @@ header input{
     display: block;
     margin-top: 0px;
     margin-bottom: 10px;
-    color: #814096;
+    color: rgb(129, 64, 150, 1);
     font-size: 27px;
     line-height: 1.36em;
     font-weight: 500;
@@ -447,16 +467,14 @@ header input{
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .courses .box-container .box{
-    flex:1 1 27rem;
-    margin:1rem;
+    
+    margin:0rem;
     padding:1rem;
     background:#fff;
     border:.1rem solid rgba(0,0,0,.2);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
-    text-align: center;
     padding-bottom: 3rem;
 }
 
@@ -469,9 +487,11 @@ header input{
     color:var(--purple);
     font-size: 2.5rem;
     padding-top: 1rem;
+    text-align: center;
 }
 
 .courses .box-container .box .price{
+    margin-left: 38%;
     font-size: 4rem;
     color:var(--pink);
     padding:1rem 0;
@@ -488,6 +508,7 @@ header input{
 
 .courses .box-container .box ul li{
     font-size: 1.7rem;
+    list-style-position: inside;
     color:#666;
     padding:.5rem 0;
 }
